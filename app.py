@@ -63,5 +63,6 @@ if uploaded_file:
 
     # Optional Debug info
     with st.expander("🔍 Raw YOLO Output (For Debugging)"):
-        st.json(result.probs.json())
+        st.markdown("### Raw Class Probabilities:")
+        st.write(dict(zip(class_names.values(), probs)))
 
