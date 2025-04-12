@@ -25,7 +25,7 @@ uploaded_file = st.file_uploader("Upload Route Image", type=["png", "jpg", "jpeg
 if uploaded_file:
     # Show uploaded image
     img = Image.open(uploaded_file)
-    st.image(img, caption='Uploaded Image', use_column_width=True)
+    st.image(img, caption='Uploaded Image', use_container_width=True)
 
     # Save to a temp file for YOLO
     with tempfile.NamedTemporaryFile(delete=False, suffix=".png") as tmp_file:
