@@ -16,7 +16,7 @@ His process involves:
 
 We found the experiment promising, though not highly accurate
 
--- 
+---
 
 This project uses **YOLOv8** to classify school bus route images into two categories: **Feasible** and **Infeasible**. It's packaged as a simple, user-friendly **Streamlit app** that allows uploading up to 10 images at a time, gives predictions, and provides detailed confidence scores.
 
@@ -64,24 +64,3 @@ Trained using `yolov8n-cls.pt` base model on custom-labeled image dataset split 
 ✅ Debug-friendly expandable section for raw probability data  
 
 ---
-
-## 🧪 Local Setup
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/bus-route-feasibility-classifier.git
-cd bus-route-feasibility-classifier
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
-☁️ Streamlit Cloud Deployment
-This repo is Streamlit Cloud–ready. It includes:
-
-packages.txt to install missing libGL dependency
-
-Headless OpenCV (opencv-python-headless) to avoid GUI issues
-
-Cached model loading for performance
