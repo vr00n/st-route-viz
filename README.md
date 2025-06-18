@@ -2,6 +2,9 @@
 
 This project uses **YOLOv8** to classify school bus route images into two categories: **Feasible** and **Infeasible**. It's packaged as a simple, user-friendly **Streamlit app** that allows uploading up to 10 images at a time, gives predictions, and provides detailed confidence scores.
 
+## Route Generation and Training Code
+https://colab.research.google.com/drive/1ER8GhxOXqDOmNRCOe8a-peH6AMsBo54e?usp=sharing
+
 ## 🚀 Demo
 
 [Streamlit Cloud Link](https://st-route-viz-h55atcswtxchjuauiatrgt.streamlit.app/)
