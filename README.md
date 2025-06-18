@@ -4,8 +4,7 @@ This project uses **YOLOv8** to classify school bus route images into two catego
 
 ## 🚀 Demo
 
-> [Streamlit Cloud Link]([https://share.streamlit.io/yourusername/bus-route-feasibility-classifier](https://st-route-viz-h55atcswtxchjuauiatrgt.streamlit.app/))
-> 
+[Streamlit Cloud Link]([https://share.streamlit.io/yourusername/bus-route-feasibility-classifier](https://st-route-viz-h55atcswtxchjuauiatrgt.streamlit.app/))
 
 ---
 
