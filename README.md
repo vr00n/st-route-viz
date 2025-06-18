@@ -10,18 +10,14 @@ This project uses **YOLOv8** to classify school bus route images into two catego
 
 ## 📂 Project Structure
 
-bus-route-feasibility-classifier/
+``bus-route-feasibility-classifier/
 ├── app.py # Streamlit app
 ├── best.pt # Trained YOLOv8 classification model
 ├── requirements.txt # Python dependencies
 ├── packages.txt # System-level dependencies (e.g., libGL for OpenCV)
 ├── README.md # You’re reading it
 └── .streamlit/
-└── config.toml # (Optional) Streamlit app config
-
-yaml
-Copy
-Edit
+└── config.toml # (Optional) Streamlit app config``
 
 ---
 
