@@ -6,7 +6,7 @@ Poorly designed routes can negatively impact students—especially those who rel
 At NYCSBUS, we've developed strong mental models to quickly assess route quality. 
 Inspired by Prof. Judy Fan’s research on how humans outperform AI in visual abstraction tasks, we experiment with evaluating school bus routes visually rather than numerically.
 
-His process involves:
+The process involves:
 
 * Converting routes into symbolic visual representations (depots, pickups, and schools marked with distinct symbols).
 * Using a routing engine to check if buses reach schools on time.
