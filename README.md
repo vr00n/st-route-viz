@@ -17,7 +17,8 @@ This project uses **YOLOv8** to classify school bus route images into two catego
 ├── packages.txt # System-level dependencies (e.g., libGL for OpenCV)
 ├── README.md # You’re reading it
 └── .streamlit/
-└── config.toml # (Optional) Streamlit app config```
+└── config.toml # (Optional) Streamlit app config
+```
 
 ---
 
